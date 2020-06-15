@@ -1,0 +1,12 @@
+$primary: blue;
+$secondary: darkblue;
+
+.contact {
+  .title {
+    color: $primary;
+    font-size: 36px;
+  }
+  .sub-title {
+    color: $secondary;
+  }
+}
