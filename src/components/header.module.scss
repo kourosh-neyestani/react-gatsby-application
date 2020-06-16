@@ -1,0 +1,21 @@
+@import "../styles/global.scss";
+
+.header {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: $color-4;
+  color: #000;
+
+  a:hover {
+    color: $color-1;
+  }
+
+  ul {
+      margin: 0 -15px;
+      li {
+          display: inline-block;
+          padding: 0 15px;
+      }
+  }
+}

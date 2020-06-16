@@ -1,10 +1,12 @@
-import React from 'react'
-import styles from "./Layout.module.scss"
+import React from "react"
+import styles from "./layout.module.scss"
+import Header from "./header"
 
-export default function Layout({children}) {
-    return (
-        <div className={styles.container}>
-            {children}
-        </div>
-    )
+export default function Layout({ children }) {
+  return (
+    <div className={styles.container}>
+      <Header />
+      {children}
+    </div>
+  )
 }
