@@ -1,7 +1,8 @@
 import React from "react"
+import Layout from "../components/Layout"
 
 export default () => (
-  <div>
+  <Layout>
     <h1>404 Not Found</h1>
     <p>
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus
@@ -9,5 +10,5 @@ export default () => (
       aperiam facilis. Laborum aliquid officiis perspiciatis incidunt
       repellendus blanditiis, cupiditate necessitatibus! Corrupti!
     </p>
-  </div>
+  </Layout>
 )

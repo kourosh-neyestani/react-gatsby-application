@@ -1,10 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
-import styles from "./about.module.css";
+import styles from "./about.module.css"
+import Layout from "../components/Layout"
 
 export default function About() {
   return (
-    <div>
+    <Layout>
       <h1 className={styles.title}>About Page</h1>
       <Link to={`/`}>Home </Link>
       <Link to={`/about`}>About </Link>
@@ -15,6 +16,6 @@ export default function About() {
         expedita, inventore optio non quo possimus nesciunt et beatae! Dolores,
         dolore sequi.
       </p>
-    </div>
+    </Layout>
   )
 }
