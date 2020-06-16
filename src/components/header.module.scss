@@ -3,7 +3,7 @@
 .header {
   height: 60px;
   line-height: 60px;
-  text-align: center;
+  position: relative;
   background-color: $color-4;
   color: #000;
 
@@ -11,7 +11,16 @@
     color: $color-1;
   }
 
+h1 {
+  top: -22px;
+  left: 30px;
+  position: absolute;
+}
+
   ul {
+    top: 0;
+    right: 30px;
+    position: absolute;
       margin: 0 -15px;
       li {
           display: inline-block;
